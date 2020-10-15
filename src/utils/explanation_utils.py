@@ -17,7 +17,7 @@ import torch
 from torch.nn import functional as F
 from captum.attr import DeepLiftShap, Saliency
 from utils.vector_utils import values_target, images_to_vectors
-from lime import lime_image
+# from lime import lime_image
 
 # defining global variables
 global values
